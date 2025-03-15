@@ -1,0 +1,70 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.weather {
+  place-self: center;
+  padding: 40px;
+  border-radius: 20px;
+  background-color: rgba(52, 181, 220, 0.854);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-bar input {
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  padding-left: 25px;
+  color: rgb(128, 124, 124);
+  background-color: white;
+  font-size: 18px;
+  margin: 20px;
+}
+
+.defaultCities {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.defaultCity {
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  color: white;
+  margin: 20px;
+  background-color: rgba(36, 126, 153, 0.854);
+  cursor: pointer;
+  margin: 20px;
+  height: 50px;
+  padding: 20px;
+}
+
+.getWeatherButton {
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  padding: 20px;
+  color: white;
+  background-color: rgba(36, 126, 153, 0.854);
+  font-size: 15px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.hourForecast {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  gap: 20px;
+  font-size: 20px;
+}
